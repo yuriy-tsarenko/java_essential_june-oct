@@ -9,6 +9,6 @@ public class Main {
         double radius = input.nextDouble();
 
         MyArea circle = new MyArea();
-        System.out.println("Площа вашого кола = " + circle.areaOfCircle(radius));
+        System.out.println("Площа вашого кола дорівнює " + circle.areaOfCircle(radius));
     }
 }
