@@ -22,13 +22,13 @@ public class Premium {
         int salary = console.nextInt();
         System.out.println("Введите выслугу лет сотрудника: ");
         int experience = console.nextInt();
-        IsSeniorityEcho(experience);
-        float salaryEnjoy = IsAward(salary, IsSeniority(experience));
+        isSeniorityEcho(experience);
+        float salaryEnjoy = isAward(salary, isSeniority(experience));
         System.out.println("Зарплата сотрудника составила: " + salaryEnjoy);
     }
 
 
-    static private float IsSeniority(int a) {
+    protected static float isSeniority(int a) {
         float stuff = 0;
         if (a < 5) {
             stuff = 0.1F;
@@ -46,7 +46,7 @@ public class Premium {
         return stuff;
     }
 
-    static private void IsSeniorityEcho(int a) {
+    protected static void isSeniorityEcho(int a) {
 
         if (a < 5) {
             System.out.println("Премия сотрудника составила 10%");
@@ -63,7 +63,7 @@ public class Premium {
         }
     }
 
-        static private float IsAward ( float a, float b){
-            return a + (a * b);
-        }
+    protected static float isAward(float a, float b) {
+        return a + (a * b);
     }
+}

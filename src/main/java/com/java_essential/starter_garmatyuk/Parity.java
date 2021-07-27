@@ -20,12 +20,12 @@ public class Parity {
         System.out.println("Ввидетие число и еще раз для проверки через Битовый сдвиг: ");
         int numBit = input.nextInt();
 
-        IsEvenMath(num);
-        IsEvenLogic(numLogic);
-        IsEvenBit(numBit);
+        isEvenMath(num);
+        isEvenLogic(numLogic);
+        isEvenBit(numBit);
     }
 
-    static private void IsEvenMath(int a) {
+    protected static void isEvenMath(int a) {
         if (a % 2 == 0) {
             System.out.println(a + " Число четное");
         } else {
@@ -33,7 +33,7 @@ public class Parity {
         }
     }
 
-    static private void IsEvenLogic(int a) {
+    protected static void isEvenLogic(int a) {
         String binA = Integer.toBinaryString(a);
         //char lastNum = binA.charAt(binA.length()-1);
         String result = binA.substring(binA.length() - 1);
@@ -45,7 +45,7 @@ public class Parity {
         }
     }
 
-    static private void IsEvenBit(int a) {
+    protected static void isEvenBit(int a) {
         int newBit = a >> 1;
         if (a == (newBit << 1)) {
             System.out.println(a + " Число четное");

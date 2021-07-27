@@ -14,14 +14,13 @@ public class PowerOfTwo {
 
     static boolean isPow2(int a) {
         int result = 2;
-        while (result != a){
+        while (result != a) {
             result = result << 1;
-            if (result > a){
+            if (result > a) {
                 return false;
             }
         }
         return true;
-
 
 
     }

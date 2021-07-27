@@ -6,10 +6,10 @@ public class Arithmetics {
     public static void main(String[] args) {
 
         Scanner keyWord = new Scanner(System.in);
-        System.out.println("Добро пожаловать в обновленный Калькулятор! \n" +
-                "Ведите сначала первое целлочисленное значение, затем введите знак арифметической операции \n" +
-                "После чего, введите второе целое число \n" +
-                "Приятного пользования!");
+        System.out.println("Добро пожаловать в обновленный Калькулятор! \n"
+                + "Ведите сначала первое целлочисленное значение, затем введите знак арифметической операции \n"
+                + "После чего, введите второе целое число \n"
+                + "Приятного пользования!");
         int operand1 = Integer.parseInt(keyWord.nextLine());
         String operation = keyWord.nextLine();
         int operand2 = Integer.parseInt(keyWord.nextLine());

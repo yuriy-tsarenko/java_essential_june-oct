@@ -27,7 +27,7 @@ public class Rectangle {
         System.out.println("Прямоугольный треугольник II");
         for (int i = 0; i < height; i++) {
             for (int j = 0; j < height; j++) {
-                if ( j + i < height) {
+                if (j + i < height) {
                     System.out.print(space);
                 } else {
                     System.out.print(star);
@@ -38,7 +38,7 @@ public class Rectangle {
 
         // Равносторонний треугольник equilateral triangle
         System.out.println("Равносторонний треугольник");
-        int factor = ((width - 1)/2) + 1;
+        int factor = ((width - 1) / 2) + 1;
         for (int i = 0; i < height; i++) {
             for (int j = 0; j < width; j++) {
                 if (j < factor || j + factor > width) {

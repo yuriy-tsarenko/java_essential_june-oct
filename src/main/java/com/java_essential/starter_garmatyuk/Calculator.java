@@ -11,8 +11,8 @@ public class Calculator {
         int operand2 = 0;
 
         int sign = 0;
-        System.out.println("Введите знак арифметической операции.\n" +
-                "Например: \nСложение + \nВычетание - \nУмножение * \nДеление / \nПолучить остаток от деления %");
+        System.out.println("Введите знак арифметической операции.\n"
+                + "Например: \nСложение + \nВычетание - \nУмножение * \nДеление / \nПолучить остаток от деления %");
         Scanner console = new Scanner(System.in);
         String symbol = console.nextLine();
 
@@ -23,15 +23,15 @@ public class Calculator {
                 break;
             case "*":  sign = operand1 * operand2;
                 break;
-            case "%":  if (operand2 == 0){
+            case "%":  if (operand2 == 0) {
                 System.out.println("Любое число, кроме нуля!");
                 break;
             }
                 sign = operand1 % operand2;
                 break;
             case "/":
-                if (operand2 == 0){
-                System.out.println("Любое число, кроме нуля!");
+                if (operand2 == 0) {
+                    System.out.println("Любое число, кроме нуля!");
                 break;
             }
                 sign = operand1 / operand2;

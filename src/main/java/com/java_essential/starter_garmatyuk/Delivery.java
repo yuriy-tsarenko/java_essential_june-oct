@@ -6,8 +6,8 @@ public class Delivery {
     public static void main(String[] args) {
         System.out.println("Введите количество клиентов: ");
         Scanner console = new Scanner(System.in);
-        int N = console.nextInt(); //количество клиентов
-        System.out.println("Всего клиентов: " + N);
+        int sumN = console.nextInt(); //количество клиентов
+        System.out.println("Всего клиентов: " + sumN);
 
         int count = 1;
         int order = 1;
@@ -15,7 +15,7 @@ public class Delivery {
             order *= count;
             count++;
 
-        } while (N >= count);
+        } while (sumN >= count);
         System.out.println("Количество возможных вариантов доставки: " + order);
     }
 }

@@ -1,6 +1,6 @@
 package com.java_essential.starter_garmatyuk;
 
-public class Machine_Mathematics002 {
+public class MachineMathematics {
     public static void main(String[] args) {
         //Задание 1
         System.out.println("Задание 1");
@@ -46,7 +46,7 @@ public class Machine_Mathematics002 {
         System.out.println(str2);
         //System.out.println(str3);
 
-        //Дополнительное задание
+        /*Дополнительное задание
         System.out.println("*=*=*=*=*=*=*=*=*=*=");
         System.out.println("Дополнительное задание");
 
@@ -84,7 +84,10 @@ public class Machine_Mathematics002 {
         char name32 = '\u0021';
         char name33 = '\u00bb';
 
-        System.out.printf("\u0020\u00ab\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442" +
-                "\u0435\u002c\u0020\u041f\u0430\u0432\u0435\u043b\u0020\u0413\u0430\u0440\u043c\u0430\u0442\u044e\u043a\u0020\u0021\u00bb");
+        System.out.print("\u0020\u00ab\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442" +
+                "\u0435\u002c\u0020\u041f\u0430\u0432\u0435\u043b\u0020\u0413\u0430\u0440\u043c\u0430\u0442\u044e\u043a
+                \u0020\u0021\u00bb");
+                */ //Закомментил его, переписывать нет смысла посимвольно согласно CCJ,
+        //т.к. это будет уже другое задание.
     }
 }

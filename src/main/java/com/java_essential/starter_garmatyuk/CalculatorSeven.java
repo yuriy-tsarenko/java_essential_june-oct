@@ -2,7 +2,7 @@ package com.java_essential.starter_garmatyuk;
 
 import java.util.Scanner;
 
-public class Calculator_007 {
+public class CalculatorSeven {
     public static void main(String[] args) {
         System.out.println("Введите три целых числа");
         System.out.println("Первое число: ");

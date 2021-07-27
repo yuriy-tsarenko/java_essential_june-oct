@@ -6,8 +6,8 @@ public class Conversion {
     public static void main(String[] args) {
         Scanner initiate = new Scanner(System.in);
         System.out.println("Добро пожаловать в Валютный калькулятор! \n"
-                +"Введите сумму денег в определенной валюте \n" +
-                "Затем актуальный курс \n" );
+                + "Введите сумму денег в определенной валюте \n"
+                + "Затем актуальный курс \n");
         double currency = Double.parseDouble(initiate.nextLine());
         double exchange = Double.parseDouble(initiate.nextLine());
 

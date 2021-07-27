@@ -15,10 +15,10 @@ public class Circle {
         Scanner console = new Scanner(System.in);
         double radius = console.nextDouble();
         System.out.println("Радиус круга равен " + radius);
-        final double PI = Math.PI;
-        System.out.println("Число 'ПИ' равно: " + PI);
+        final double pi = Math.PI;
+        System.out.println("Число 'ПИ' равно: " + pi);
 
-        double squareCircle = PI * Math.pow(radius, 2);
+        double squareCircle = pi * Math.pow(radius, 2);
         System.out.println("Площадь круга равна: " + squareCircle);
 
 
