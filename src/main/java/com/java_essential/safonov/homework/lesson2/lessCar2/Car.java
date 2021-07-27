@@ -6,7 +6,7 @@ public class Car {
     int weight;
     String color;
 
-    public Car(){
+    public Car() {
         this.ear = 20;
         this.speed = 100;
         this.weight = 1000;
@@ -37,11 +37,11 @@ public class Car {
 
     @Override
     public String toString() {
-        return "Car{" +
-                "ear=" + ear +
-                ", speed=" + speed +
-                ", weight=" + weight +
-                ", color='" + color + '\'' +
-                '}';
+        return "Car{"
+                + "ear=" + ear
+                + ", speed=" + speed
+                + ", weight=" + weight
+                + ", color='" + color + '\''
+                + '}';
     }
 }
