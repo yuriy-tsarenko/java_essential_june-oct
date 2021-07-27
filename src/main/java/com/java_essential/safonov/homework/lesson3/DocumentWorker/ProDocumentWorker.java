@@ -1,6 +1,6 @@
 package com.java_essential.safonov.homework.lesson3.DocumentWorker;
 
-public class ProDocumentWorker extends DocumentWorker{
+public class ProDocumentWorker extends DocumentWorker {
 
     @Override
     public void editDocument() {
@@ -9,6 +9,6 @@ public class ProDocumentWorker extends DocumentWorker{
 
     @Override
     public void saveDocument() {
-        System.out.println("Документ сохранен в старом формате, сохранение в остальных форматах доступно в версии Эксперт");
+        System.out.println("Документ сохранен в старом формате, сохранение доступно в версии Эксперт");
     }
 }

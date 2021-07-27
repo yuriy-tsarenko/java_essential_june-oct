@@ -2,13 +2,14 @@ package com.java_essential.safonov.homework.lesson3.ClassRoom;
 
 public class ClassRoom {
 
-    public ClassRoom(Pupil pupil){
+    public ClassRoom(Pupil pupil) {
         pupil.study();
         pupil.read();
         pupil.write();
         pupil.relax();
     }
-    public ClassRoom(Pupil pupil, ExcelentPupil exPupil){
+
+    public ClassRoom(Pupil pupil, ExcelentPupil exPupil) {
         pupil.study();
         pupil.read();
         pupil.write();

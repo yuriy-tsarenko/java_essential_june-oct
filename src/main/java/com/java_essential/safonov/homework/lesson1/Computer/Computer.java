@@ -15,9 +15,9 @@ public class Computer {
         for (int i = 0; i < computers.length; i++) {
             computers[i].ip = i;
         }
-            for(Computer comp : computers){
-                System.out.println("IP адресс " + comp.ip);
-            }
+        for (Computer comp : computers) {
+            System.out.println("IP адресс " + comp.ip);
         }
     }
+}
 

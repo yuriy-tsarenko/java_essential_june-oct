@@ -1,6 +1,6 @@
 package com.java_essential.safonov.homework.lesson3.ClassRoom;
 
-public class GoodPupil extends Pupil{
+public class GoodPupil extends Pupil {
     @Override
     public void study() {
         System.out.println("Николай");

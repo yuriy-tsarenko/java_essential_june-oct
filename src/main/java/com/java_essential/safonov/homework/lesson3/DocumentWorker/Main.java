@@ -12,18 +12,18 @@ public class Main {
 
         key = scanner.nextInt();
 
-        if (key == pro){
+        if (key == pro) {
             DocumentWorker proDocumentWorker = new ProDocumentWorker();
             proDocumentWorker.openDocument();
             proDocumentWorker.editDocument();
             proDocumentWorker.saveDocument();
-        }else if(key == exp){
+        } else if (key == exp) {
             DocumentWorker expertDocumentWorker = new ExpertDocumentWorker();
             expertDocumentWorker.openDocument();
             expertDocumentWorker.editDocument();
             expertDocumentWorker.saveDocument();
 
-        }else{
+        } else {
             DocumentWorker documentWorker = new DocumentWorker();
             documentWorker.openDocument();
             documentWorker.editDocument();

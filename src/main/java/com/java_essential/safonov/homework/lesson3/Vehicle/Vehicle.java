@@ -5,7 +5,7 @@ public class Vehicle {
     public int year;
     public double speed;
 
-    public Vehicle(){
+    public Vehicle() {
         price = 5800.3;
         year = 1985;
         speed = 220;
