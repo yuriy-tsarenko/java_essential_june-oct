@@ -11,7 +11,7 @@ public class Main {
         address.setHouse("56");
         address.setApartment("10");
 
-        System.out.println(address.toString());
+        System.out.println(address);
 
     }
 }
