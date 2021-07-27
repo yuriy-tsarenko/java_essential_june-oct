@@ -10,18 +10,18 @@ public class Interval {
         //Проверка диапазона
         if (symbol < 0 || symbol > 100){
             System.out.println("Число не входит в промежуток от 0 до 100!");
+            return;
         }
         //Диапозон
-        if (symbol >= 0 && symbol <= 14){
+        if (symbol <= 14){
             System.out.println("[0-14]");
         }else if
-        (symbol >= 15 && symbol <= 35){
+        (symbol <= 35){
             System.out.println("[15-35]");
         }else if
-        (symbol >= 36 && symbol <= 50){
+        (symbol <= 50){
             System.out.println("[36-50]");
-        }else if
-        (symbol >= 51 && symbol <= 100){
+        }else {
             System.out.println("[51-100]");
         }
     }
