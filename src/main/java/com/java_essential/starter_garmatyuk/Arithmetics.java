@@ -33,6 +33,7 @@ public class Arithmetics {
                 break;
         }
     }
+
     private void add(int a, int b) {
         System.out.println(a + b);
     }
@@ -46,14 +47,14 @@ public class Arithmetics {
     }
 
     private void div(int a, int b) {
-        String dividedError = "На ноль делить нельзя!";
         if (b == 0) {
-            System.out.println(dividedError);
-        } else {
-            System.out.println((double) a / b);
+            System.out.println("На ноль делить нельзя");
+            return;
         }
-
-
+        System.out.println((double) a / b);
     }
 
+
 }
+
+
