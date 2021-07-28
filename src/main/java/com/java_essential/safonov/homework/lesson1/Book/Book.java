@@ -16,13 +16,12 @@ public class Book {
         content.setContent(scanner.nextLine());
 
         System.out.println("Наша книга: ");
-        System.out.print("Автор "); author.show();
-        System.out.print("Название "); title.show();
-        System.out.print("Содержание "); content.show();
-
-
-
-
+        System.out.print("Автор ");
+        author.show();
+        System.out.print("Название ");
+        title.show();
+        System.out.print("Содержание ");
+        content.show();
 
 
     }

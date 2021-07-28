@@ -3,9 +3,9 @@ package com.java_essential.safonov.homework.lesson2.myArea;
 import java.util.Scanner;
 
 public class MyArea {
-    final double PI = 3.14;
+    final double pi = 3.14;
 
-    public static double areaOfCircle(double PI) {
+    public static double areaOfCircle(double pi) {
         double radius;
         double square;
 
@@ -13,12 +13,12 @@ public class MyArea {
         System.out.println("Введите радиус круга ");
         radius = scanner.nextDouble();
 
-        square = PI * Math.pow(radius, 2);
+        square = pi * Math.pow(radius, 2);
         return square;
     }
 
     public void areaShow() {
-        System.out.println("Площадь круга = "+ areaOfCircle(PI));
+        System.out.println("Площадь круга = " + areaOfCircle(pi));
     }
 
 }

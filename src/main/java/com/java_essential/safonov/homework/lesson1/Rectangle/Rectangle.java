@@ -14,16 +14,18 @@ public class Rectangle {
         System.out.println("Введите ширину");
         side2 = scanner.nextInt();
 
-        System.out.println("Площать прямоугольника = " + rectangle.areaCalculator(side1,side2));
-        System.out.println("Периметр прямогугольника = " + rectangle.perimeterCalculator(side1,side2));
+        System.out.println("Площать прямоугольника = " + rectangle.areaCalculator(side1, side2));
+        System.out.println("Периметр прямогугольника = " + rectangle.perimeterCalculator(side1, side2));
 
     }
-    public double areaCalculator (double side1, double side2){
-       double area;
+
+    public double areaCalculator(double side1, double side2) {
+        double area;
         area = (side1 * side2);
         return area;
     }
-    public double perimeterCalculator (double side1, double side2){
+
+    public double perimeterCalculator(double side1, double side2) {
         double perimeter;
         perimeter = (side1 + side2) * 2;
         return perimeter;
