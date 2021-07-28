@@ -5,9 +5,9 @@ name: Java CI with Maven
 
 on:
   push:
-    branches: [ master, development, feature_safonov, feature_sagandikov, feature_sych, feature_oselskyi, feature_garmatyuk, feature_oksiuta, feature_novinska, feature_kvirikadze, feature_bodyan ]
+    branches: [ master, development, feature_safonov, feature_sagandikov, feature_sych, feature_oselskyi, feature_garmatyuk, feature_oksiuta, feature_novinska, feature_kvirikadze, feature_bodyan, feature_kalinichenko ]
   pull_request:
-    branches: [ master, development, feature_safonov, feature_sagandikov, feature_sych, feature_oselskyi, feature_garmatyuk, feature_oksiuta, feature_novinska, feature_kvirikadze, feature_bodyan ]
+    branches: [ master, development, feature_safonov, feature_sagandikov, feature_sych, feature_oselskyi, feature_garmatyuk, feature_oksiuta, feature_novinska, feature_kvirikadze, feature_bodyan, feature_kalinichenko ]
 
 jobs:
   build:
