@@ -10,7 +10,8 @@ public class Content {
     public Content(String content) {
         this.content = "поезія";
     }
-    public void show(){
+
+    public void show() {
         System.out.println(content);
     }
 
