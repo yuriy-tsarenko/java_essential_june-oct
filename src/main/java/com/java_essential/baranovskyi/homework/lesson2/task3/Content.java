@@ -7,7 +7,7 @@ public class Content {
         this.content = content;
     }
 
-    void show(){
+    void show() {
         System.out.println("Содержание книги: " + content);
     }
 }

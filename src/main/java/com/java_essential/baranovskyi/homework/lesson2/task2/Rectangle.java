@@ -20,19 +20,20 @@ class Rectangle {
 
 
 class Calculator {
-    public double area, perimeter;
+    double area;
+    double perimeter;
 
-    public double areaCalculator (double side1, double side2) {
+    public double areaCalculator(double side1, double side2) {
         area = (side1 * side2);
         return area;
     }
 
-    public double perimeterCalculator (double side1, double side2) {
-        perimeter = (side1 * side2) *2;
+    public double perimeterCalculator(double side1, double side2) {
+        perimeter = (side1 * side2) * 2;
         return perimeter;
     }
 
-    public void viewResult(){
+    public void viewResult() {
         System.out.println("Площадь прямоугольника: " + area);
         System.out.println("Периметр прямоугольника: " + perimeter);
     }
