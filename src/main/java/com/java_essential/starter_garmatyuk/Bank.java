@@ -35,21 +35,20 @@ public class Bank {
         }
     }
 
-
-    public int getSumCredit() {
-        return sumCredit;
-    }
-
-    public void setSumCredit(int sumCredit) {
-        this.sumCredit = sumCredit;
+    public void setBalance(int balance) {
+        this.balance += balance;
     }
 
     public static void main(String[] args) {
-        Bank creditOne = new Bank(100000, 10, 0, "Ivan");
+        Bank creditOne = new Bank(10000, 10, 0, "Ivan");
+
+
+        System.out.println("Введите сумму платежа:");
         Scanner console = new Scanner(System.in);
-        int inputSumPayment = console.nextInt();
-        creditOne.setSumCredit(inputSumPayment);
+        int inputSumPayment = Integer.parseInt(console.nextLine());
+        creditOne.setBalance(inputSumPayment);
         creditOne.statusCredit(inputSumPayment);
+
 
     }
 
