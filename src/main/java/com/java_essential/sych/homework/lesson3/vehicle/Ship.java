@@ -11,12 +11,12 @@ public class Ship extends Vehicle {
 
     @Override
     public String toString() {
-        return "Ship{" +
-                "numberOfPassengers=" + numberOfPassengers +
-                ", port='" + port + '\'' +
-                ", price=" + price +
-                ", year=" + year +
-                ", speed=" + speed +
-                '}';
+        return "Ship{"
+                + "numberOfPassengers=" + numberOfPassengers
+                + ", port='" + port + '\''
+                + ", price=" + price
+                + ", year=" + year
+                + ", speed=" + speed
+                + '}';
     }
 }

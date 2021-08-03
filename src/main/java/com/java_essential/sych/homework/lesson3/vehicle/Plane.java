@@ -1,6 +1,6 @@
 package com.java_essential.sych.homework.lesson3.vehicle;
 
-public class Plane extends Vehicle{
+public class Plane extends Vehicle {
     int height;
     int numberOfPassengers;
 
@@ -11,12 +11,12 @@ public class Plane extends Vehicle{
 
     @Override
     public String toString() {
-        return "Plane{" +
-                "height=" + height +
-                ", numberOfPassengers=" + numberOfPassengers +
-                ", price=" + price +
-                ", year=" + year +
-                ", speed=" + speed +
-                '}';
+        return "Plane{"
+                + "height=" + height
+                + ", numberOfPassengers=" + numberOfPassengers
+                + ", price=" + price
+                + ", year=" + year
+                + ", speed=" + speed
+                + '}';
     }
 }
