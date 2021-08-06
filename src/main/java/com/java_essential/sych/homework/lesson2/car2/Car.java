@@ -34,11 +34,11 @@ public class Car {
 
     @Override
     public String toString() {
-        return "Car{" +
-                "year=" + year +
-                ", weight=" + weight +
-                ", speed=" + speed +
-                ", color='" + color + '\'' +
-                '}';
+        return "Car{"
+                + "year=" + year
+                + ", weight=" + weight
+                + ", speed=" + speed
+                + ", color='" + color + '\''
+                + '}';
     }
 }

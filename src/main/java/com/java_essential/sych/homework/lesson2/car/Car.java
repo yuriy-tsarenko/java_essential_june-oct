@@ -1,4 +1,4 @@
-package com.java_essential.sych.homework.lesson2;
+package com.java_essential.sych.homework.lesson2.car;
 
 public class Car {
     private int year;

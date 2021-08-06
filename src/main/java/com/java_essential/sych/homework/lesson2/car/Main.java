@@ -1,4 +1,6 @@
-package com.java_essential.sych.homework.lesson2;
+package com.java_essential.sych.homework.lesson2.car;
+
+import com.java_essential.sych.homework.lesson2.car.Car;
 
 public class Main {
     public static void main(String[] args) {
