@@ -4,6 +4,7 @@ public class Vehicle {
     long price;
     double speed;
     int year;
+
     Vehicle(long price, double speed, int year) {
         this.price = price;
         this.speed = speed;
@@ -14,6 +15,7 @@ public class Vehicle {
 class Plane extends Vehicle {
     double height;
     int passengers;
+
     Plane(long price, double speed, int year) {
         super(price, speed, year);
         this.height = 19.4;
@@ -35,6 +37,7 @@ class Plane extends Vehicle {
 }
 
 class Car extends Vehicle {
+
     Car(long price, double speed, int year) {
         super(price, speed, year);
     }
@@ -53,6 +56,7 @@ class Car extends Vehicle {
 class Ship extends Vehicle {
     int passengers;
     String homePort;
+    
     Ship(long price, double speed, int year) {
         super(price, speed, year);
         this.passengers = 5479;
