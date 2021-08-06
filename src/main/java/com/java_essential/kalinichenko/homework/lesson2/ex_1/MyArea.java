@@ -1,9 +1,9 @@
 package com.java_essential.kalinichenko.homework.lesson2.ex_1;
 
 public class MyArea {
-    static final float PI = 3.14F;
+    static final double PI = 3.14F;
 
-    static float areaOgCircle(float r) {
-        return PI * r * r;
+    static double areaOgCircle(double r) {
+        return PI *  Math.pow(r, 2);
     }
 }
