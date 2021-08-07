@@ -1,4 +1,4 @@
-package com.cbs.java_essential.examples.lesson6.nested_classes.ex001_nestedclasses;
+package com.java_essential.examples.lesson6.nested_classes.ex001_nestedclasses;
 
 import lombok.Builder;
 import lombok.ToString;
