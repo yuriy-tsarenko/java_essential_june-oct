@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
         List<Integer> someNumbers = new ArrayList<>();
 
-        for (int i = 0; i < 15; i++) {
+        for (int i = 0; i < 10; i++) {
             someNumbers.add(i);
         }
 
@@ -20,9 +20,9 @@ public class Main {
 
         ListIterator<Integer> value = someNumbers.listIterator();
         while (value.hasNext()) {
-            Integer val = value.next() + 1;
-            System.out.println(val);
+            value.set(value.next()+1);
         }
+        someNumbers.forEach(System.out::println);
     }
 
 }
