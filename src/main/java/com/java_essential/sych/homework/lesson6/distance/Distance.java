@@ -3,11 +3,6 @@ package com.java_essential.sych.homework.lesson6.distance;
 import java.util.Scanner;
 
 public class Distance {
-    private double distance;
-
-    void print() {
-
-    }
 
     public static class Converter {
 
