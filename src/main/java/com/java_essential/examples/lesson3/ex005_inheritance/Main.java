@@ -16,14 +16,14 @@ public class Main {
 
         // Приведение экземпляра класса DerivedClass к базовому типу BaseClass.
         BaseClass newInstance = (BaseClass) instance; //Upcast
-        DerivedClass derivedClass = (DerivedClass) newInstance; //Downcast
+//        DerivedClass derivedClass = (DerivedClass) newInstance; //Downcast
 
         System.out.println(newInstance.field1);
         System.out.println(newInstance.field2);
         System.out.println(newInstance.field3);
 
-        System.out.println(derivedClass.field4);
-        System.out.println(derivedClass.field5);
+//        System.out.println(derivedClass.field4);
+//        System.out.println(derivedClass.field5);
 
         // Проверка.
         System.out.println("instance Id:     " + instance.hashCode());
